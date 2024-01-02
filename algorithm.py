@@ -3,7 +3,7 @@ import csv
 def generate():
     return
 
-with open('data_mini.csv', 'r') as csvFile:
+with open('data/data_mini.csv', 'r') as csvFile:
     csvReader = csv.reader(csvFile)
 
     # Skip header line
