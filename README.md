@@ -1,5 +1,7 @@
 # The dumbest algorithm that I've conceived.
 
+This program generates a number sequence for you to use in your next money-burning session
+
 **Functionality**
 + Generates a sequence of numbers that fits the ruleset of a specified lottery type
 + Checks the generated sequence for combinations that are "cold" as well as previous winning numbers
