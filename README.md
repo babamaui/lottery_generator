@@ -4,8 +4,8 @@ This program generates a number sequence for you to use in your next money-burni
 
 **Functionality**
 + Generates a sequence of numbers that fits the ruleset of a specified lottery type
-+ Checks the generated sequence for combinations that are "cold" as well as previous winning numbers
-+ Generates another number if SOMEHOW it counts as a cold number, that chance is astronomically small haha
++ Checks the generated sequence for supposedly unlikely sequences
++ Regenerates a new sequence if it is determined to be unlikely to appear (though they are all equally likely to appear, tbh)
 + Outputs the sequence for the delusional gambler to use for their next lottery ticket :P (aka me ahahaha i need help)
 
 **Specs**
@@ -19,3 +19,4 @@ This program generates a number sequence for you to use in your next money-burni
 
 **Additional**
 + analyze_csv.py graphs the past winning numbers of mega millions since 2002.
++ matplotlib is required to use this function.
