@@ -1,4 +1,3 @@
-
 import matplotlib.pyplot as plt
 import csv
 from gen_algorithm import validate

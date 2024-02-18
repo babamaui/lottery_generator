@@ -36,11 +36,18 @@ def generate_mega():
 
     # Generate the first 5 numbers
     for i in range(5):
-        current = random.randint(min, 70)
+        if i == 0:
+            current = random.randint(1, 46)
+        elif i == 1:
+            current = random.randint(min, 63)
+        elif i == 2:
+            current = random.randint(min, 68)
+        elif i == 3:
+            current = random.randint(min, max - 1)
+        elif i == 4:
+            current = random.randint(min, max)
         sequence.append(current)
         min = current + 1
-
-    
 
     # Generate index 5 Mega Ball
     sequence.append(random.randint(1, 25))
